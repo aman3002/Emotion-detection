@@ -2,7 +2,7 @@
 
 The Facial Emotion Recognizer is a program designed to analyze facial expressions and recognize the corresponding emotions. It utilizes machine learning techniques to process images or video frames and extract features that indicate various emotions such as happiness, sadness, anger, surprise, etc. This README provides an overview of the Facial Emotion Recognizer, including its features, installation instructions, usage guide, and other relevant information.
 
-#Features
+# Features
 The Facial Emotion Recognizer offers the following key features:
 
 Emotion Recognition: It accurately identifies and classifies facial expressions into different emotional states, providing insights into the emotional state of individuals.
@@ -17,7 +17,7 @@ API Integration: The recognizer provides an easy-to-use API for seamless integra
 
 Customization: The program can be trained on custom datasets to recognize specific facial expressions or emotions based on specific requirements.
 
-#Installation
+# Installation
 To install and set up the Facial Emotion Recognizer, follow these steps:
 
 Requirements: Ensure that you have the following dependencies installed:
@@ -28,23 +28,27 @@ TensorFlow (machine learning framework)
 Other necessary libraries (NumPy, Matplotlib, etc.)
 Clone the Repository: Clone the Facial Emotion Recognizer repository to your local machine using the following command:
 
-bash
-Copy code
+
 git clone https://github.com/aman3002/mood-Resolver.git
+
+
 Install Dependencies: Navigate to the cloned repository directory and install the required dependencies using the following command:
 
+
 Copy code
-pip install pandas
-pip install tensorflow
-pip install numpy
-pip install opencv-python
-pip install pillow
+# pip install pandas
+# pip install tensorflow
+# pip install numpy
+# pip install opencv-python
+# pip install pillow
 
 
 
-Run the Recognizer: Execute the main program file to run the Facial Emotion Recognizer. You can modify the code to adapt it to your specific needs or integrate it into your application.
+# Run the Recognizer:
 
-Usage
+Execute the main program file to run the Facial Emotion Recognizer. You can modify the code to adapt it to your specific needs or integrate it into your application.
+
+# Usage
 To use the Facial Emotion Recognizer, follow these steps:
 
 Initialize the recognizer by loading the pretrained model and any required configuration.
@@ -59,12 +63,14 @@ Utilize the recognized emotions for further analysis, visualization, or integrat
 
 For detailed usage instructions and code examples, refer to the documentation provided in the repository.
 
-Contributing
+# Contributing
 Contributions to the Facial Emotion Recognizer are welcome! If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please submit a pull request or open an issue in the repository. Please follow the guidelines outlined in the CONTRIBUTING.md file.
 
-License
+# License
 The Facial Emotion Recognizer is released under the MIT License. You are free to use, modify, and distribute the software as per the terms of the license.
 
-Acknowledgments
+# Acknowledgments
 We would like to acknowledge the following resources and projects that have contributed to the development of the Facial Emotion Recognizer:
+
+
 https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
